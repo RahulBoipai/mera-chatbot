@@ -1,0 +1,1 @@
+docker run --gpus all -it -v $PWD:/workspace dev/chat:v0
