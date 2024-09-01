@@ -52,7 +52,15 @@ RUN apt-get install -y \
     
 ENV PYTHONPATH=$PYTHONPATH:/workspace/
 
-# RUN /opt/conda/envs/chat_env/bin/pip install \
+RUN /opt/conda/envs/chat_env/bin/pip install \
+                python-dotenv\
+                huggingface_hub\
+                langchain\
+                langchain-ollama\
+                streamlit\
+                langchain_community\
+                langchain-huggingface
+                
 
 
 
