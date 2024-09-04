@@ -5,3 +5,4 @@ langchain-ollama
 streamlit
 langchain_community
 langchain-huggingface
+streamlit-chat 
