@@ -59,7 +59,11 @@ RUN /opt/conda/envs/chat_env/bin/pip install \
                 langchain-ollama\
                 streamlit\
                 langchain_community\
-                langchain-huggingface
+                langchain-huggingface\
+                streamlit-chat\
+                PyPDF2\
+                faiss-gpu\
+                faiss-cpu
                 
 
 

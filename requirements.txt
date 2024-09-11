@@ -6,3 +6,6 @@ streamlit
 langchain_community
 langchain-huggingface
 streamlit-chat 
+PyPDF2
+faiss-gpu
+faiss-cpu
