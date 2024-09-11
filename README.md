@@ -1,4 +1,4 @@
-# MERA-CHAT
+# MERA-CHATbot
 
 ## setup
 All the necessary dependency are in Dockerfile
