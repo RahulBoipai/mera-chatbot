@@ -1,26 +1,37 @@
 All the necessary dependency are in Dockerfile
-build docker image
-1. bash build_image.sh 
+## setup
+run the beloow 
+1. build docker image
+```bash
+bash build_image.sh 
+```
 
-build container
-2. bash start_container.sh 
+2. build container
+```bash
+bash start_container.sh 
+```
 
-activate conda env
-3. conda activate chat_env
+3. activate conda env
+```bash
+conda activate chat_env
+ ```
 
-download and install ollam
-4. curl -fsSL https://ollama.com/install.sh | sh
+3. download and install ollam
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ ```
 
-run llama3
-5. ollama run llama3
-run app
-4. streamlit run chatbot.py
+4. run llama3
+```bash
+ollama run llama3
+```
 
-#important links
+## run app
+```bash
+ streamlit run run.py
+ ```
+
+## important links
 https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 https://python.langchain.com/v0.2/docs/integrations/providers/ollama/
 https://github.com/ollama/ollama?tab=readme-ov-file
-
-#addition package install
-pip install -U langchain-community
-pip install ollama
