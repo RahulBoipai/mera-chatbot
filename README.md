@@ -1,37 +1,38 @@
+# MERA-CHAT
 All the necessary dependency are in Dockerfile
 ## setup
-run the beloow 
+run the below command in terminal with number sequence.
 1. build docker image
-```bash
-bash build_image.sh 
-```
+    ```
+    bash build_image.sh 
+    ```
 
 2. build container
-```bash
-bash start_container.sh 
-```
+    ```
+    bash start_container.sh 
+    ```
 
 3. activate conda env
-```bash
-conda activate chat_env
- ```
+    ```
+    conda activate chat_env
+    ```
 
 3. download and install ollam
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
- ```
+    ```
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
 
 4. run llama3
-```bash
-ollama run llama3
-```
+    ```bash
+    ollama run llama3
+    ```
 
 ## run app
-```bash
- streamlit run run.py
- ```
+    ```bash
+    streamlit run run.py
+    ```
 
 ## important links
-https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
-https://python.langchain.com/v0.2/docs/integrations/providers/ollama/
-https://github.com/ollama/ollama?tab=readme-ov-file
+- [streamlit-emoji](https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/)
+- [langchain-ollama](https://python.langchain.com/v0.2/docs/integrations/providers/ollama/)
+- [ollama](https://github.com/ollama/ollama?tab=readme-ov-file)
