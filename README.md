@@ -1,7 +1,8 @@
 # MERA-CHAT
-All the necessary dependency are in Dockerfile
+
 ## setup
-run the below command in terminal with number sequence.
+All the necessary dependency are in Dockerfile
+run the below command in terminal in the number sequence.
 1. build docker image
     ```
     bash build_image.sh 
@@ -28,9 +29,9 @@ run the below command in terminal with number sequence.
     ```
 
 ## run app
-    ```bash
-    streamlit run run.py
-    ```
+```
+streamlit run run.py
+```
 
 ## important links
 - [streamlit-emoji](https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/)
